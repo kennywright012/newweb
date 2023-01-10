@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    color: white;
+    font-family: 'poppins',Georgia, 'Times New Roman', Times, serif;
+    background: rgba(51, 51, 51, 0.336) url("../image/flying-dove_removed.png") no-repeat center center / cover;
+
+}
+@media (max-width:425px) {
+    body{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+}
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 8, 233, 0.473);
+    height: 2.5rem;
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-left: 6.5rem;
+    border-top-left-radius: 0.9rem;
+        border-bottom-right-radius: 0.9rem;
+        padding-top: 0.5rem;
+}
+@media (max-width:425px) {
+    .header{
+        width: 100%;
+        margin: auto;
+    }
+    .arrivals,.blogs,.rev{
+        display: none;
+    }
+    
+   
+}
+.fas,a{
+color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: larger;
+}
+.header-2 > nav > a{
+    margin-left: 0.5rem;
+    color: #333;
+}
+
+.featured{
+    text-align: center;
+    width: 100%;
+}
+.heading{
+    margin-top: 2rem;
+}
+@media (max-width:425px) {
+    .featured {
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+    h1 .heading span{
+        text-align: center;
+    }
+}
+.swiper-wrapper{
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+        width: 100%;
+        
+}
+@media (max-width:425px) {
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+}
+.swiper-slide img{
+    width: 250px;
+}
+.review-heading{
+    text-align: center;
+    margin-top: 2rem;
+    color: #333;
+}
+.reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:50vh;
+    margin: auto;
+    color: #333;
+}
+@media (max-width:425px) {
+    .review-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin: auto;
+    }
+    .review1,.review3{
+        display: none;
+    }
+}
+.content,.price{
+    color: #333;
+}
+.reviews img{
+    width: 200px;
+    border-radius: 70%;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 9rem;
+}
+.review1,.review2,.review3{
+    box-shadow: 2px 2px 5px 0px rgb(208, 9, 226);
+}
+h2{
+    text-align: center;
+}
+.reviews p{
+    text-align: center;
+}
+.stars{
+    margin: auto;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    /* background-color: black; */
+    width: 100%;
+}
+.footer1,.footer2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.footer3{
+    margin-left: 5rem;
+}
+@media (max-width:425px) {
+    .footer2,.footer3{
+        display: none;
+    }
+    
+}
